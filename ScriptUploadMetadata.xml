@@ -22,9 +22,11 @@
     <FileEntry Name="address1.dat" Filter="2" />
     <FileEntry Name="firstName.dat" Filter="2" />
     <FileEntry Name="seatPref.dat" Filter="2" />
+    <FileEntry Name="ScriptVcsSettings.xml" Filter="2" />
     <FileEntry Name="seatType.dat" Filter="2" />
     <FileEntry Name="combined_Tours_WebHttpHtml.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name=".gitignore" Filter="1" />
     <FileEntry Name="106367730440.idx" Filter="1" />
     <FileEntry Name="142102857440.idx" Filter="1" />
     <FileEntry Name="152147124440.idx" Filter="1" />
@@ -40,10 +42,16 @@
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
     <FileEntry Name="mdrv6dv.933.log" Filter="1" />
+    <FileEntry Name="mdrv7EJ.643.log" Filter="1" />
     <FileEntry Name="mdrv9ky.197.log" Filter="1" />
+    <FileEntry Name="mdrvAUQ.55.log" Filter="1" />
     <FileEntry Name="mdrvCU0.459.log" Filter="1" />
     <FileEntry Name="mdrvIrF.655.log" Filter="1" />
     <FileEntry Name="mdrviYT.147.log" Filter="1" />
+    <FileEntry Name="mdrvJUl.549.log" Filter="1" />
+    <FileEntry Name="mdrvlXw.509.log" Filter="1" />
+    <FileEntry Name="mdrvMbo.9.log" Filter="1" />
+    <FileEntry Name="mdrvqhT.807.log" Filter="1" />
     <FileEntry Name="mdrvS6d.633.log" Filter="1" />
     <FileEntry Name="mdrvx3Q.755.log" Filter="1" />
     <FileEntry Name="mdrvyLl.885.log" Filter="1" />
@@ -61,6 +69,7 @@
     <FileEntry Name="Tours_WebHttpHtml.prm.bak" Filter="1" />
     <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name=".git\" Filter="1" />
     <FileEntry Name="data\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
   </GeneralFiles>

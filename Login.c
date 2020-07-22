@@ -1,5 +1,9 @@
 Login()
 {
+
+	lr_debug_message(LR_MSG_CLASS_BRIEF_LOG, "Testing");
+
+	
 	/*Correlation comment - Do not change!  Original value='128993.233130822zzDfAiQptcQVzzzHDQiVApfDzfHf' Name ='userSession' Type ='Manual'*/
 	web_reg_save_param_attrib(
 		"ParamName=userSession",
