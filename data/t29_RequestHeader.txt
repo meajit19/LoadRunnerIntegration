@@ -1,0 +1,10 @@
+GET /WebTours/images/bookanother.gif HTTP/1.1
+Accept: image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5
+Referer: http://localhost:1080/cgi-bin/reservations.pl
+Accept-Language: en-US
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: localhost:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1592419997&MSO_JSFormSubmit1&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Ajit&username&ajit&address2&94536&hash&84&address1&4143%20Bullard%20Street&lastName&Kumar%0A
+

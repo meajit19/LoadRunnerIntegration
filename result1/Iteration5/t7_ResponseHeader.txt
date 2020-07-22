@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Thu, 18 Jun 2020 23:48:22 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Wed, 17 Jun 2020 23:48:22 GMT
+Set-Cookie: MTUserInfo=firstName&Ajit&username&ajit&address2&94536&hash&84&address1&4143%20Bullard%20Street&lastName&Kumar%0A; path=/
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+

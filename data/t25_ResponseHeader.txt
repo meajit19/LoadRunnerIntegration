@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=3600
+Content-Length: 160677
+Content-Type: application/xml
+Content-Encoding: gzip
+ETag: vF/TjShoO/30VWpJm9gYQVnSkwE=
+Vary: Accept-Encoding
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-MSEdge-Ref: Ref A: 8BCF40EA4669480E896F4F24547FF4DA Ref B: PAOEDGE0610 Ref C: 2020-06-17T18:54:20Z
+Date: Wed, 17 Jun 2020 18:54:19 GMT
+

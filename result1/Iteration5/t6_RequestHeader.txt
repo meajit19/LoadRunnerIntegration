@@ -1,0 +1,12 @@
+POST /cgi-bin/reservations.pl HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Referer: http://localhost:1080/cgi-bin/reservations.pl
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US
+Accept: */*
+Connection: Keep-Alive
+Host: localhost:1080
+Cookie: MTUserInfo=firstName&Ajit&address2&94536&username&ajit&hash&84&lastName&Kumar%0A&address1&4143%20Bullard%20Street&creditCard&&expDate&%0A
+Content-Length: 180
+

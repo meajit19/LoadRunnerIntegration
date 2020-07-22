@@ -1,0 +1,10 @@
+GET /cgi-bin/welcome.pl?page=search HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home
+Accept-Language: en-US
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: localhost:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1592419997&MSO_JSFormSubmit1&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Ajit&address2&94536&username&ajit&hash&84&lastName&Kumar%0A&address1&4143%20Bullard%20Street&creditCard&&expDate&%0A
+

@@ -1,0 +1,729 @@
+Logout.c(8):     2ae\r\n
+Logout.c(8): t=553773ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=1727)
+Logout.c(8):     \r\n
+Logout.c(8): t=553773ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=1727)
+Logout.c(8):     <!-- \n
+Logout.c(8):      A Session ID has been created and loaded into a cookie called MSO.\n
+Logout.c(8):      Also, the server options have been loaded into the cookie called\n
+Logout.c(8):      MSO as well.  The server options can be set via the Admin page.\n
+Logout.c(8):      --->\n
+Logout.c(8):     \n
+Logout.c(8):     <html>\n
+Logout.c(8):     <title>Web Tours</title>\n
+Logout.c(8):        <!-- Frame Set -->\n
+Logout.c(8):        <frameset cols="160,*" border="1" frameborder="1">\n
+Logout.c(8):           <!-- Navigation Frame -->\n
+Logout.c(8):           <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" \n
+Logout.c(8):                 noresize="noresize" scrolling="auto"/>\n
+Logout.c(8):           <!-- Home Frame -->\n
+Logout.c(8):           <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" \n
+Logout.c(8):                 noresize="noresize" scrolling="auto"/>\n
+Logout.c(8):        </frameset>\n
+Logout.c(8):     </html>\n
+Logout.c(8):     \n
+Logout.c(8):     </body>\n
+Logout.c(8):     </html>
+Logout.c(8): t=553780ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=1727)
+Logout.c(8):     0\r\n
+Logout.c(8):     \r\n
+Logout.c(8): t=553780ms: Request done "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26000]
+Logout.c(8): Registered web_reg_find successful for "Text=Web Tours" (count=1)  	[MsgId: MMSG-26364]
+Logout.c(8): web_url("Logout") was successful, 686 body bytes, 394 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Logout.c(16): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0.2437 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+Logout.c(17): lr_think_time: 0.00 seconds (recorded think time was 13.00 seconds).	[MsgId: MMSG-15947]
+Ending action Logout.	[MsgId: MMSG-15918]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+t=553781ms: Closed connection [0] to localhost:1080 after completing 5 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=0, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 1 (thread 27816), ended OK."	[MsgId: MMSG-10695]
+Ending action FlightDetails.	[MsgId: MMSG-15918]
+Starting action Reservation.	[MsgId: MMSG-15919]
+Reservation.c(5): web_reg_find started  	[MsgId: MMSG-26355]
+Reservation.c(5): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Reservation.c(9): Notify: Transaction "Reservation" started.	[MsgId: MMSG-16999]
+Reservation.c(10): web_submit_data("Reservation") started  	[MsgId: MMSG-26355]
+Reservation.c(10): Notify: Parameter Substitution: parameter "firstName" =  "Ajit"	[MsgId: MMSG-13992]
+Reservation.c(10): Notify: Next row for parameter lastName = 1 [table  = lastName].	[MsgId: MMSG-13876]
+Reservation.c(10): Notify: Parameter Substitution: parameter "lastName" =  "Kumar"	[MsgId: MMSG-13992]
+Reservation.c(10): Notify: Parameter Substitution: parameter "address1" =  "4143 Bullard St"	[MsgId: MMSG-13992]
+Reservation.c(10): Notify: Next row for parameter address2 = 1 [table  = address2].	[MsgId: MMSG-13876]
+Reservation.c(10): Notify: Parameter Substitution: parameter "address2" =  "94536"	[MsgId: MMSG-13992]
+Reservation.c(10): Notify: Parameter Substitution: parameter "PassName" =  "Ajit Kumar"	[MsgId: MMSG-13992]
+Reservation.c(10): Notify: Parameter Substitution: parameter "creditCard" =  "112235658"	[MsgId: MMSG-13992]
+Reservation.c(10): Notify: Parameter Substitution: parameter "expDate" =  "07/20"	[MsgId: MMSG-13992]
+Reservation.c(10): Notify: Parameter Substitution: parameter "NumPassenger" =  "3"	[MsgId: MMSG-13992]
+Reservation.c(10): Notify: Parameter Substitution: parameter "seatType" =  "Business"	[MsgId: MMSG-13992]
+Reservation.c(10): Notify: Parameter Substitution: parameter "seatPref" =  "None"	[MsgId: MMSG-13992]
+Reservation.c(10): Notify: Parameter Substitution: parameter "DepartDate" =  "07/03/2020"	[MsgId: MMSG-13992]
+Reservation.c(10): Notify: Parameter Substitution: parameter "ReturnDate" =  "07/05/2020"	[MsgId: MMSG-13992]
+Reservation.c(10): t=553832ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+Reservation.c(10): t=553832ms: 520-byte request headers for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=858)
+Reservation.c(10):     POST /cgi-bin/reservations.pl HTTP/1.1\r\n
+Reservation.c(10):     Content-Type: application/x-www-form-urlencoded\r\n
+Reservation.c(10):     Referer: http://localhost:1080/cgi-bin/reservations.pl\r\n
+Reservation.c(10):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko\r
+Reservation.c(10):     \n
+Reservation.c(10):     Accept-Encoding: gzip, deflate\r\n
+Reservation.c(10):     Accept-Language: en-US\r\n
+Reservation.c(10):     Accept: */*\r\n
+Reservation.c(10):     Connection: Keep-Alive\r\n
+Reservation.c(10):     Host: localhost:1080\r\n
+Reservation.c(10):     Cookie: MTUserInfo=firstName&Ajit&address2&94536&username&ajit&hash&84&lastName&Kumar%0A&a
+Reservation.c(10):     ddress1&4143%20Bullard%20Street&creditCard&&expDate&%0A\r\n
+Reservation.c(10):     Content-Length: 347\r\n
+Reservation.c(10):     \r\n
+Reservation.c(10): t=553833ms: 347-byte request body for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=858)
+Reservation.c(10):     firstName=Ajit&lastName=Kumar&address1=4143+Bullard+St&address2=94536&pass1=Ajit+Kumar&cre
+Reservation.c(10):     ditCard=112235658&expDate=07%2F20&oldCCOption=&numPassengers=3&seatType=Business&seatPref=
+Reservation.c(10):     None&outboundFlight=000%3B0%3B07%2F03%2F2020&advanceDiscount=0&returnFlight=000%3B0%3B07%2
+Reservation.c(10):     F05%2F2020&JSFormSubmit=off&.cgifields=saveCC&buyFlights.x=52&buyFlights.y=12
+Reservation.c(10): t=553858ms: 390-byte response headers for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=2330)
+Reservation.c(10):     HTTP/1.1 200 OK\r\n
+Reservation.c(10):     Date: Fri, 03 Jul 2020 00:27:31 GMT\r\n
+Reservation.c(10):     Server: Apache/2.2.21 (Win32)\r\n
+Reservation.c(10):     Expires: Thu, 02 Jul 2020 00:27:31 GMT\r\n
+Reservation.c(10):     Set-Cookie: MTUserInfo=firstName&Ajit&username&ajit&address2&94536&hash&84&address1&4143%2
+Reservation.c(10):     0Bullard%20Street&lastName&Kumar%0A; path=/\r\n
+Reservation.c(10):     Keep-Alive: timeout=5, max=97\r\n
+Reservation.c(10):     Connection: Keep-Alive\r\n
+Reservation.c(10):     Transfer-Encoding: chunked\r\n
+Reservation.c(10):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Reservation.c(10):     \r\n
+Reservation.c(10): t=553859ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=2330)
+Reservation.c(10):     9a1\r\n
+Reservation.c(10): t=553859ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=2330)
+Reservation.c(10):     \r\n
+Reservation.c(10): t=553859ms: 2465-byte chunked response body for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=2330)
+Reservation.c(10):     <!DOCTYPE html\n
+Reservation.c(10):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Reservation.c(10):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Reservation.c(10):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Reservation.c(10):     <head>\n
+Reservation.c(10):     <title>Reservation Made!</title>\n
+Reservation.c(10):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Reservation.c(10):     </head>\n
+Reservation.c(10):     <body bgcolor="#E0E7F1">\n
+Reservation.c(10):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+Reservation.c(10):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+Reservation.c(10):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black
+Reservation.c(10):     }</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Invoice</font></b></h1><blockq
+Reservation.c(10):     uote>\n
+Reservation.c(10):     <CENTER>\n
+Reservation.c(10):     <small><B>Thank you for booking through Web Tours.</B></small>\n
+Reservation.c(10):     <BR/>\n
+Reservation.c(10):     <BR/>\n
+Reservation.c(10):     <!-- Customer Name header -->\n
+Reservation.c(10):     <Table width="85%" border="0" cellspacing="0" >\n
+Reservation.c(10):       <TR bgcolor="#5E7884">\n
+Reservation.c(10):          <TD colspan="2" align="center">\n
+Reservation.c(10):             <font color="white"><b>AjitKumar's Flight Invoice</b></font>\n
+Reservation.c(10):          </TD>\n
+Reservation.c(10):          <TD width="160" align="right">\n
+Reservation.c(10):              <font color="white"><small>Thu Jul  2 17:27:31 2020\n
+Reservation.c(10):     </small>\n
+Reservation.c(10):          </TD>\n
+Reservation.c(10):       </TR>\n
+Reservation.c(10):     </Table>\n
+Reservation.c(10):     \n
+Reservation.c(10):     <Table width="85%" border="0" cellspacing="1" >\n
+Reservation.c(10):     <!-- Flight Item header -->\n
+Reservation.c(10):       <TR bgcolor="#EFF2F7">\n
+Reservation.c(10):          <TD colspan="2" align="left">\n
+Reservation.c(10):              Flights Reservation Requests:\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):         <TD align="center">Cost\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):       </TR>\n
+Reservation.c(10):     \n
+Reservation.c(10):     <!-- Flight reserved -->\n
+Reservation.c(10):     <TR bgcolor="#EFF2F7">\n
+Reservation.c(10):         <TD valign="top">1.</TD>\n
+Reservation.c(10):         <TD align="left">\n
+Reservation.c(10):            A First Class ticket\n
+Reservation.c(10):      from Denver to Denver.</u></b>\n
+Reservation.c(10):     <br/>\n
+Reservation.c(10):     <center>\n
+Reservation.c(10):            <i>\n
+Reservation.c(10):               07/03/2020 :  8am : Flight 000 leaves Denver  for Denver.<br>\n
+Reservation.c(10):            <br/>\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):         <TD valign="top">\n
+Reservation.c(10):              $0\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):       </TR>\n
+Reservation.c(10):     <!-- Total Cost -->\n
+Reservation.c(10):       <TR bgcolor="#EFF2F7">\n
+Reservation.c(10):         <TD>*\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):         <TD > Total Cost\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):         <TD>\n
+Reservation.c(10):            <b> $0 </b>\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):       </TR>\n
+Reservation.c(10):     \n
+Reservation.c(10):       <TR bgcolor="#EFF2F7">\n
+Reservation.c(10):         <TD>-\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):         <TD >\n
+Reservation.c(10):            Total Charged to Credit Card # 112234026\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):         <TD>\n
+Reservation.c(10):            <b> $0 </b>\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):       </TR>\n
+Reservation.c(10):     \n
+Reservation.c(10):       <TR bgcolor="#EFF2F7">\n
+Reservation.c(10):         <TD>*\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):         <TD >\n
+Reservation.c(10):             Credit Account Balance\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):         <TD>\n
+Reservation.c(10):            <b> $0.00 </b>\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):       </TR></Table>\n
+Reservation.c(10):     <BR/>\n
+Reservation.c(10):     <Table width="85%" border="0">\n
+Reservation.c(10):       <tr>\n
+Reservation.c(10):         <td align=right>\n
+Reservation.c(10):     <form method="post" action="" enctype="application/x-www-form-urlencoded">\n
+Reservation.c(10):     <input type="image" name="Book Another" src="/WebTours/images/bookanother.gif" border="0" 
+Reservation.c(10):     /></form>    </td>\n
+Reservation.c(10):       </tr>\n
+Reservation.c(10):     </Table>\n
+Reservation.c(10):     \n
+Reservation.c(10):     </Center>\n
+Reservation.c(10):     \n
+Reservation.c(10):     </body>\n
+Reservation.c(10):     </html>
+Reservation.c(10): t=553865ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=2330)
+Reservation.c(10):     0\r\n
+Reservation.c(10):     \r\n
+Reservation.c(10): t=553865ms: Request done "http://localhost:1080/cgi-bin/reservations.pl"  	[MsgId: MMSG-26000]
+Reservation.c(10): Registered web_reg_find successful for "Text=Reservation Made!" (count=1)  	[MsgId: MMSG-26364]
+Reservation.c(10): web_submit_data("Reservation") was successful, 2465 body bytes, 390 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Reservation.c(37): Notify: Transaction "Reservation" ended with a "Pass" status (Duration: 0.2569 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+Reservation.c(38): lr_think_time: 0.00 seconds (recorded think time was 5.00 seconds).	[MsgId: MMSG-15947]
+Ending action Reservation.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action Logout.	[MsgId: MMSG-15919]
+Logout.c(3): web_reg_find started  	[MsgId: MMSG-26355]
+Logout.c(3): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Logout.c(7): Notify: Transaction "Logout" started.	[MsgId: MMSG-16999]
+Logout.c(8): web_url("Logout") started  	[MsgId: MMSG-26355]
+Logout.c(8): t=553867ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+Logout.c(8): t=553867ms: 442-byte request headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=2331)
+Logout.c(8):     GET /cgi-bin/welcome.pl?signOff=1 HTTP/1.1\r\n
+Logout.c(8):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights\r\n
+Logout.c(8):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko\r
+Logout.c(8):     \n
+Logout.c(8):     Accept-Encoding: gzip, deflate\r\n
+Logout.c(8):     Accept-Language: en-US\r\n
+Logout.c(8):     Accept: */*\r\n
+Logout.c(8):     Connection: Keep-Alive\r\n
+Logout.c(8):     Host: localhost:1080\r\n
+Logout.c(8):     Cookie: MTUserInfo=firstName&Ajit&username&ajit&address2&94536&hash&84&address1&4143%20Bul
+Logout.c(8):     lard%20Street&lastName&Kumar%0A\r\n
+Logout.c(8):     \r\n
+Reservation.c(10): t=553975ms: 390-byte response headers for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=858)
+Reservation.c(10):     HTTP/1.1 200 OK\r\n
+Reservation.c(10):     Date: Fri, 03 Jul 2020 00:27:31 GMT\r\n
+Reservation.c(10):     Server: Apache/2.2.21 (Win32)\r\n
+Reservation.c(10):     Expires: Thu, 02 Jul 2020 00:27:31 GMT\r\n
+Reservation.c(10):     Set-Cookie: MTUserInfo=firstName&Ajit&username&ajit&address2&94536&hash&84&address1&4143%2
+Reservation.c(10):     0Bullard%20Street&lastName&Kumar%0A; path=/\r\n
+Reservation.c(10):     Keep-Alive: timeout=5, max=97\r\n
+Reservation.c(10):     Connection: Keep-Alive\r\n
+Reservation.c(10):     Transfer-Encoding: chunked\r\n
+Reservation.c(10):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Reservation.c(10):     \r\n
+Reservation.c(10): t=553976ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=858)
+Reservation.c(10):     9aa\r\n
+Reservation.c(10): t=553976ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=858)
+Reservation.c(10):     \r\n
+Reservation.c(10): t=553977ms: 2474-byte chunked response body for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=858)
+Reservation.c(10):     <!DOCTYPE html\n
+Reservation.c(10):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Reservation.c(10):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Reservation.c(10):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Reservation.c(10):     <head>\n
+Reservation.c(10):     <title>Reservation Made!</title>\n
+Reservation.c(10):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Reservation.c(10):     </head>\n
+Reservation.c(10):     <body bgcolor="#E0E7F1">\n
+Reservation.c(10):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+Reservation.c(10):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+Reservation.c(10):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black
+Reservation.c(10):     }</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Invoice</font></b></h1><blockq
+Reservation.c(10):     uote>\n
+Reservation.c(10):     <CENTER>\n
+Reservation.c(10):     <small><B>Thank you for booking through Web Tours.</B></small>\n
+Reservation.c(10):     <BR/>\n
+Reservation.c(10):     <BR/>\n
+Reservation.c(10):     <!-- Customer Name header -->\n
+Reservation.c(10):     <Table width="85%" border="0" cellspacing="0" >\n
+Reservation.c(10):       <TR bgcolor="#5E7884">\n
+Reservation.c(10):          <TD colspan="2" align="center">\n
+Reservation.c(10):             <font color="white"><b>AjitKumar's Flight Invoice</b></font>\n
+Reservation.c(10):          </TD>\n
+Reservation.c(10):          <TD width="160" align="right">\n
+Reservation.c(10):              <font color="white"><small>Thu Jul  2 17:27:31 2020\n
+Reservation.c(10):     </small>\n
+Reservation.c(10):          </TD>\n
+Reservation.c(10):       </TR>\n
+Reservation.c(10):     </Table>\n
+Reservation.c(10):     \n
+Reservation.c(10):     <Table width="85%" border="0" cellspacing="1" >\n
+Reservation.c(10):     <!-- Flight Item header -->\n
+Reservation.c(10):       <TR bgcolor="#EFF2F7">\n
+Reservation.c(10):          <TD colspan="2" align="left">\n
+Reservation.c(10):              Flights Reservation Requests:\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):         <TD align="center">Cost\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):       </TR>\n
+Reservation.c(10):     \n
+Reservation.c(10):     <!-- Flight reserved -->\n
+Reservation.c(10):     <TR bgcolor="#EFF2F7">\n
+Reservation.c(10):         <TD valign="top">1.</TD>\n
+Reservation.c(10):         <TD align="left">\n
+Reservation.c(10):            <b><u>3 Business Class tickets from Denver to Denver.</u></b>\n
+Reservation.c(10):     <br/>\n
+Reservation.c(10):     <center>\n
+Reservation.c(10):            <i>\n
+Reservation.c(10):               07/03/2020 :  8am : Flight 000 leaves Denver  for Denver.<br>\n
+Reservation.c(10):            <br/>\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):         <TD valign="top">\n
+Reservation.c(10):              $0\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):       </TR>\n
+Reservation.c(10):     <!-- Total Cost -->\n
+Reservation.c(10):       <TR bgcolor="#EFF2F7">\n
+Reservation.c(10):         <TD>*\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):         <TD > Total Cost\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):         <TD>\n
+Reservation.c(10):            <b> $0 </b>\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):       </TR>\n
+Reservation.c(10):     \n
+Reservation.c(10):       <TR bgcolor="#EFF2F7">\n
+Reservation.c(10):         <TD>-\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):         <TD >\n
+Reservation.c(10):            Total Charged to Credit Card # 112235658\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):         <TD>\n
+Reservation.c(10):            <b> $0 </b>\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):       </TR>\n
+Reservation.c(10):     \n
+Reservation.c(10):       <TR bgcolor="#EFF2F7">\n
+Reservation.c(10):         <TD>*\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):         <TD >\n
+Reservation.c(10):             Credit Account Balance\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):         <TD>\n
+Reservation.c(10):            <b> $0.00 </b>\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):       </TR></Table>\n
+Reservation.c(10):     <BR/>\n
+Reservation.c(10):     <Table width="85%" border="0">\n
+Reservation.c(10):       <tr>\n
+Reservation.c(10):         <td align=right>\n
+Reservation.c(10):     <form method="post" action="" enctype="application/x-www-form-urlencoded">\n
+Reservation.c(10):     <input type="image" name="Book Another" src="/WebTours/images/bookanother.gif" border="0" 
+Reservation.c(10):     /></form>    </td>\n
+Reservation.c(10):       </tr>\n
+Reservation.c(10):     </Table>\n
+Reservation.c(10):     \n
+Reservation.c(10):     </Center>\n
+Reservation.c(10):     \n
+Reservation.c(10):     </body>\n
+Reservation.c(10):     </html>
+Reservation.c(10): t=553984ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=858)
+Reservation.c(10):     0\r\n
+Reservation.c(10):     \r\n
+Reservation.c(10): t=553984ms: Request done "http://localhost:1080/cgi-bin/reservations.pl"  	[MsgId: MMSG-26000]
+Reservation.c(10): Registered web_reg_find successful for "Text=Reservation Made!" (count=1)  	[MsgId: MMSG-26364]
+Reservation.c(10): web_submit_data("Reservation") was successful, 2474 body bytes, 390 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Reservation.c(37): Notify: Transaction "Reservation" ended with a "Pass" status (Duration: 0.1539 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+Reservation.c(38): lr_think_time: 0.05 seconds (recorded think time was 5.00 seconds).	[MsgId: MMSG-15947]
+Ending action Reservation.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action Logout.	[MsgId: MMSG-15919]
+Logout.c(3): web_reg_find started  	[MsgId: MMSG-26355]
+Logout.c(3): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Logout.c(7): Notify: Transaction "Logout" started.	[MsgId: MMSG-16999]
+Logout.c(8): web_url("Logout") started  	[MsgId: MMSG-26355]
+Logout.c(8): t=554036ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+Logout.c(8): t=554036ms: 442-byte request headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=859)
+Logout.c(8):     GET /cgi-bin/welcome.pl?signOff=1 HTTP/1.1\r\n
+Logout.c(8):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights\r\n
+Logout.c(8):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko\r
+Logout.c(8):     \n
+Logout.c(8):     Accept-Encoding: gzip, deflate\r\n
+Logout.c(8):     Accept-Language: en-US\r\n
+Logout.c(8):     Accept: */*\r\n
+Logout.c(8):     Connection: Keep-Alive\r\n
+Logout.c(8):     Host: localhost:1080\r\n
+Logout.c(8):     Cookie: MTUserInfo=firstName&Ajit&username&ajit&address2&94536&hash&84&address1&4143%20Bul
+Logout.c(8):     lard%20Street&lastName&Kumar%0A\r\n
+Logout.c(8):     \r\n
+Logout.c(8): t=554056ms: 394-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=2331)
+Logout.c(8):     HTTP/1.1 200 OK\r\n
+Logout.c(8):     Date: Fri, 03 Jul 2020 00:27:31 GMT\r\n
+Logout.c(8):     Server: Apache/2.2.21 (Win32)\r\n
+Logout.c(8):     Set-Cookie: MSO=SID&1593736051&MSO_JSFormSubmit1&on&MSO_ServerErrorsProb&50&MSO_ServerLoad
+Logout.c(8):     Prob&50; path=/\r\n
+Logout.c(8):     Set-Cookie: MTUserInfo=; path=/; expires=Thu, 02-Jul-2020 00:27:31 GMT\r\n
+Logout.c(8):     Keep-Alive: timeout=5, max=96\r\n
+Logout.c(8):     Connection: Keep-Alive\r\n
+Logout.c(8):     Transfer-Encoding: chunked\r\n
+Logout.c(8):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Logout.c(8):     \r\n
+Logout.c(8): t=554056ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=2331)
+Logout.c(8):     2ae\r\n
+Logout.c(8): t=554057ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=2331)
+Logout.c(8):     \r\n
+Logout.c(8): t=554057ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=2331)
+Logout.c(8):     <!-- \n
+Logout.c(8):      A Session ID has been created and loaded into a cookie called MSO.\n
+Logout.c(8):      Also, the server options have been loaded into the cookie called\n
+Logout.c(8):      MSO as well.  The server options can be set via the Admin page.\n
+Logout.c(8):      --->\n
+Logout.c(8):     \n
+Logout.c(8):     <html>\n
+Logout.c(8):     <title>Web Tours</title>\n
+Logout.c(8):        <!-- Frame Set -->\n
+Logout.c(8):        <frameset cols="160,*" border="1" frameborder="1">\n
+Logout.c(8):           <!-- Navigation Frame -->\n
+Logout.c(8):           <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" \n
+Logout.c(8):                 noresize="noresize" scrolling="auto"/>\n
+Logout.c(8):           <!-- Home Frame -->\n
+Logout.c(8):           <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" \n
+Logout.c(8):                 noresize="noresize" scrolling="auto"/>\n
+Logout.c(8):        </frameset>\n
+Logout.c(8):     </html>\n
+Logout.c(8):     \n
+Logout.c(8):     </body>\n
+Logout.c(8):     </html>
+Logout.c(8): t=554066ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=2331)
+Logout.c(8):     0\r\n
+Logout.c(8):     \r\n
+Logout.c(8): t=554066ms: Request done "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26000]
+Logout.c(8): Registered web_reg_find successful for "Text=Web Tours" (count=1)  	[MsgId: MMSG-26364]
+Logout.c(8): web_url("Logout") was successful, 686 body bytes, 394 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Logout.c(16): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0.2002 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+Logout.c(17): lr_think_time: 0.00 seconds (recorded think time was 13.00 seconds).	[MsgId: MMSG-15947]
+Ending action Logout.	[MsgId: MMSG-15918]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+t=554067ms: Closed connection [0] to localhost:1080 after completing 5 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=0, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 0 (thread 38496), ended OK."	[MsgId: MMSG-10695]
+Logout.c(8): t=554192ms: 394-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=859)
+Logout.c(8):     HTTP/1.1 200 OK\r\n
+Logout.c(8):     Date: Fri, 03 Jul 2020 00:27:31 GMT\r\n
+Logout.c(8):     Server: Apache/2.2.21 (Win32)\r\n
+Logout.c(8):     Set-Cookie: MSO=SID&1593736051&MSO_JSFormSubmit1&on&MSO_ServerErrorsProb&50&MSO_ServerLoad
+Logout.c(8):     Prob&50; path=/\r\n
+Logout.c(8):     Set-Cookie: MTUserInfo=; path=/; expires=Thu, 02-Jul-2020 00:27:31 GMT\r\n
+Logout.c(8):     Keep-Alive: timeout=5, max=96\r\n
+Logout.c(8):     Connection: Keep-Alive\r\n
+Logout.c(8):     Transfer-Encoding: chunked\r\n
+Logout.c(8):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Logout.c(8):     \r\n
+Logout.c(8): t=554192ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=859)
+Logout.c(8):     2ae\r\n
+Logout.c(8): t=554192ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=859)
+Logout.c(8):     \r\n
+Logout.c(8): t=554192ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=859)
+Logout.c(8):     <!-- \n
+Logout.c(8):      A Session ID has been created and loaded into a cookie called MSO.\n
+Logout.c(8):      Also, the server options have been loaded into the cookie called\n
+Logout.c(8):      MSO as well.  The server options can be set via the Admin page.\n
+Logout.c(8):      --->\n
+Logout.c(8):     \n
+Logout.c(8):     <html>\n
+Logout.c(8):     <title>Web Tours</title>\n
+Logout.c(8):        <!-- Frame Set -->\n
+Logout.c(8):        <frameset cols="160,*" border="1" frameborder="1">\n
+Logout.c(8):           <!-- Navigation Frame -->\n
+Logout.c(8):           <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" \n
+Logout.c(8):                 noresize="noresize" scrolling="auto"/>\n
+Logout.c(8):           <!-- Home Frame -->\n
+Logout.c(8):           <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" \n
+Logout.c(8):                 noresize="noresize" scrolling="auto"/>\n
+Logout.c(8):        </frameset>\n
+Logout.c(8):     </html>\n
+Logout.c(8):     \n
+Logout.c(8):     </body>\n
+Logout.c(8):     </html>
+Logout.c(8): t=554199ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=859)
+Logout.c(8):     0\r\n
+Logout.c(8):     \r\n
+Logout.c(8): t=554199ms: Request done "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26000]
+Logout.c(8): Registered web_reg_find successful for "Text=Web Tours" (count=1)  	[MsgId: MMSG-26364]
+Logout.c(8): web_url("Logout") was successful, 686 body bytes, 394 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Logout.c(16): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0.1637 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+Logout.c(17): lr_think_time: 0.13 seconds (recorded think time was 13.00 seconds).	[MsgId: MMSG-15947]
+Ending action Logout.	[MsgId: MMSG-15918]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+t=554329ms: Closed connection [0] to localhost:1080 after completing 5 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=0, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 2 (thread 56248), ended OK."	[MsgId: MMSG-10695]
+Ending action FlightDetails.	[MsgId: MMSG-15918]
+Starting action Reservation.	[MsgId: MMSG-15919]
+Reservation.c(5): web_reg_find started  	[MsgId: MMSG-26355]
+Reservation.c(5): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Reservation.c(9): Notify: Transaction "Reservation" started.	[MsgId: MMSG-16999]
+Reservation.c(10): web_submit_data("Reservation") started  	[MsgId: MMSG-26355]
+Reservation.c(10): Notify: Parameter Substitution: parameter "firstName" =  "Ajit"	[MsgId: MMSG-13992]
+Reservation.c(10): Notify: Next row for parameter lastName = 1 [table  = lastName].	[MsgId: MMSG-13876]
+Reservation.c(10): Notify: Parameter Substitution: parameter "lastName" =  "Kumar"	[MsgId: MMSG-13992]
+Reservation.c(10): Notify: Parameter Substitution: parameter "address1" =  "4143 Bullard St"	[MsgId: MMSG-13992]
+Reservation.c(10): Notify: Next row for parameter address2 = 1 [table  = address2].	[MsgId: MMSG-13876]
+Reservation.c(10): Notify: Parameter Substitution: parameter "address2" =  "94536"	[MsgId: MMSG-13992]
+Reservation.c(10): Notify: Parameter Substitution: parameter "PassName" =  "Ajit Kumar"	[MsgId: MMSG-13992]
+Reservation.c(10): Notify: Parameter Substitution: parameter "creditCard" =  "112236471"	[MsgId: MMSG-13992]
+Reservation.c(10): Notify: Parameter Substitution: parameter "expDate" =  "07/20"	[MsgId: MMSG-13992]
+Reservation.c(10): Notify: Parameter Substitution: parameter "NumPassenger" =  "2"	[MsgId: MMSG-13992]
+Reservation.c(10): Notify: Parameter Substitution: parameter "seatType" =  "First"	[MsgId: MMSG-13992]
+Reservation.c(10): Notify: Parameter Substitution: parameter "seatPref" =  "Aisle"	[MsgId: MMSG-13992]
+Reservation.c(10): Notify: Parameter Substitution: parameter "DepartDate" =  "07/03/2020"	[MsgId: MMSG-13992]
+Reservation.c(10): Notify: Parameter Substitution: parameter "ReturnDate" =  "07/05/2020"	[MsgId: MMSG-13992]
+Reservation.c(10): t=554446ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+Reservation.c(10): t=554446ms: 520-byte request headers for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=110)
+Reservation.c(10):     POST /cgi-bin/reservations.pl HTTP/1.1\r\n
+Reservation.c(10):     Content-Type: application/x-www-form-urlencoded\r\n
+Reservation.c(10):     Referer: http://localhost:1080/cgi-bin/reservations.pl\r\n
+Reservation.c(10):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko\r
+Reservation.c(10):     \n
+Reservation.c(10):     Accept-Encoding: gzip, deflate\r\n
+Reservation.c(10):     Accept-Language: en-US\r\n
+Reservation.c(10):     Accept: */*\r\n
+Reservation.c(10):     Connection: Keep-Alive\r\n
+Reservation.c(10):     Host: localhost:1080\r\n
+Reservation.c(10):     Cookie: MTUserInfo=firstName&Ajit&address2&94536&username&ajit&hash&84&lastName&Kumar%0A&a
+Reservation.c(10):     ddress1&4143%20Bullard%20Street&creditCard&&expDate&%0A\r\n
+Reservation.c(10):     Content-Length: 345\r\n
+Reservation.c(10):     \r\n
+Reservation.c(10): t=554447ms: 345-byte request body for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=110)
+Reservation.c(10):     firstName=Ajit&lastName=Kumar&address1=4143+Bullard+St&address2=94536&pass1=Ajit+Kumar&cre
+Reservation.c(10):     ditCard=112236471&expDate=07%2F20&oldCCOption=&numPassengers=2&seatType=First&seatPref=Ais
+Reservation.c(10):     le&outboundFlight=000%3B0%3B07%2F03%2F2020&advanceDiscount=0&returnFlight=000%3B0%3B07%2F0
+Reservation.c(10):     5%2F2020&JSFormSubmit=off&.cgifields=saveCC&buyFlights.x=52&buyFlights.y=12
+Reservation.c(10): t=554622ms: 390-byte response headers for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=110)
+Reservation.c(10):     HTTP/1.1 200 OK\r\n
+Reservation.c(10):     Date: Fri, 03 Jul 2020 00:27:32 GMT\r\n
+Reservation.c(10):     Server: Apache/2.2.21 (Win32)\r\n
+Reservation.c(10):     Expires: Thu, 02 Jul 2020 00:27:32 GMT\r\n
+Reservation.c(10):     Set-Cookie: MTUserInfo=firstName&Ajit&username&ajit&address2&94536&hash&84&address1&4143%2
+Reservation.c(10):     0Bullard%20Street&lastName&Kumar%0A; path=/\r\n
+Reservation.c(10):     Keep-Alive: timeout=5, max=97\r\n
+Reservation.c(10):     Connection: Keep-Alive\r\n
+Reservation.c(10):     Transfer-Encoding: chunked\r\n
+Reservation.c(10):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Reservation.c(10):     \r\n
+Reservation.c(10): t=554623ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=110)
+Reservation.c(10):     9a7\r\n
+Reservation.c(10): t=554623ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=110)
+Reservation.c(10):     \r\n
+Reservation.c(10): t=554623ms: 2471-byte chunked response body for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=110)
+Reservation.c(10):     <!DOCTYPE html\n
+Reservation.c(10):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Reservation.c(10):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Reservation.c(10):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Reservation.c(10):     <head>\n
+Reservation.c(10):     <title>Reservation Made!</title>\n
+Reservation.c(10):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Reservation.c(10):     </head>\n
+Reservation.c(10):     <body bgcolor="#E0E7F1">\n
+Reservation.c(10):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+Reservation.c(10):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+Reservation.c(10):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black
+Reservation.c(10):     }</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Invoice</font></b></h1><blockq
+Reservation.c(10):     uote>\n
+Reservation.c(10):     <CENTER>\n
+Reservation.c(10):     <small><B>Thank you for booking through Web Tours.</B></small>\n
+Reservation.c(10):     <BR/>\n
+Reservation.c(10):     <BR/>\n
+Reservation.c(10):     <!-- Customer Name header -->\n
+Reservation.c(10):     <Table width="85%" border="0" cellspacing="0" >\n
+Reservation.c(10):       <TR bgcolor="#5E7884">\n
+Reservation.c(10):          <TD colspan="2" align="center">\n
+Reservation.c(10):             <font color="white"><b>AjitKumar's Flight Invoice</b></font>\n
+Reservation.c(10):          </TD>\n
+Reservation.c(10):          <TD width="160" align="right">\n
+Reservation.c(10):              <font color="white"><small>Thu Jul  2 17:27:32 2020\n
+Reservation.c(10):     </small>\n
+Reservation.c(10):          </TD>\n
+Reservation.c(10):       </TR>\n
+Reservation.c(10):     </Table>\n
+Reservation.c(10):     \n
+Reservation.c(10):     <Table width="85%" border="0" cellspacing="1" >\n
+Reservation.c(10):     <!-- Flight Item header -->\n
+Reservation.c(10):       <TR bgcolor="#EFF2F7">\n
+Reservation.c(10):          <TD colspan="2" align="left">\n
+Reservation.c(10):              Flights Reservation Requests:\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):         <TD align="center">Cost\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):       </TR>\n
+Reservation.c(10):     \n
+Reservation.c(10):     <!-- Flight reserved -->\n
+Reservation.c(10):     <TR bgcolor="#EFF2F7">\n
+Reservation.c(10):         <TD valign="top">1.</TD>\n
+Reservation.c(10):         <TD align="left">\n
+Reservation.c(10):            <b><u>2 First Class tickets from Denver to Denver.</u></b>\n
+Reservation.c(10):     <br/>\n
+Reservation.c(10):     <center>\n
+Reservation.c(10):            <i>\n
+Reservation.c(10):               07/03/2020 :  8am : Flight 000 leaves Denver  for Denver.<br>\n
+Reservation.c(10):            <br/>\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):         <TD valign="top">\n
+Reservation.c(10):              $0\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):       </TR>\n
+Reservation.c(10):     <!-- Total Cost -->\n
+Reservation.c(10):       <TR bgcolor="#EFF2F7">\n
+Reservation.c(10):         <TD>*\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):         <TD > Total Cost\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):         <TD>\n
+Reservation.c(10):            <b> $0 </b>\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):       </TR>\n
+Reservation.c(10):     \n
+Reservation.c(10):       <TR bgcolor="#EFF2F7">\n
+Reservation.c(10):         <TD>-\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):         <TD >\n
+Reservation.c(10):            Total Charged to Credit Card # 112236471\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):         <TD>\n
+Reservation.c(10):            <b> $0 </b>\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):       </TR>\n
+Reservation.c(10):     \n
+Reservation.c(10):       <TR bgcolor="#EFF2F7">\n
+Reservation.c(10):         <TD>*\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):         <TD >\n
+Reservation.c(10):             Credit Account Balance\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):         <TD>\n
+Reservation.c(10):            <b> $0.00 </b>\n
+Reservation.c(10):         </TD>\n
+Reservation.c(10):       </TR></Table>\n
+Reservation.c(10):     <BR/>\n
+Reservation.c(10):     <Table width="85%" border="0">\n
+Reservation.c(10):       <tr>\n
+Reservation.c(10):         <td align=right>\n
+Reservation.c(10):     <form method="post" action="" enctype="application/x-www-form-urlencoded">\n
+Reservation.c(10):     <input type="image" name="Book Another" src="/WebTours/images/bookanother.gif" border="0" 
+Reservation.c(10):     /></form>    </td>\n
+Reservation.c(10):       </tr>\n
+Reservation.c(10):     </Table>\n
+Reservation.c(10):     \n
+Reservation.c(10):     </Center>\n
+Reservation.c(10):     \n
+Reservation.c(10):     </body>\n
+Reservation.c(10):     </html>
+Reservation.c(10): t=554633ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=110)
+Reservation.c(10):     0\r\n
+Reservation.c(10):     \r\n
+Reservation.c(10): t=554633ms: Request done "http://localhost:1080/cgi-bin/reservations.pl"  	[MsgId: MMSG-26000]
+Reservation.c(10): Registered web_reg_find successful for "Text=Reservation Made!" (count=1)  	[MsgId: MMSG-26364]
+Reservation.c(10): web_submit_data("Reservation") was successful, 2471 body bytes, 390 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Reservation.c(37): Notify: Transaction "Reservation" ended with a "Pass" status (Duration: 0.1885 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+Reservation.c(38): lr_think_time: 0.48 seconds (recorded think time was 5.00 seconds).	[MsgId: MMSG-15947]
+Ending action Reservation.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action Logout.	[MsgId: MMSG-15919]
+Logout.c(3): web_reg_find started  	[MsgId: MMSG-26355]
+Logout.c(3): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Logout.c(7): Notify: Transaction "Logout" started.	[MsgId: MMSG-16999]
+Logout.c(8): web_url("Logout") started  	[MsgId: MMSG-26355]
+Logout.c(8): t=555114ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+Logout.c(8): t=555114ms: 442-byte request headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=111)
+Logout.c(8):     GET /cgi-bin/welcome.pl?signOff=1 HTTP/1.1\r\n
+Logout.c(8):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights\r\n
+Logout.c(8):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko\r
+Logout.c(8):     \n
+Logout.c(8):     Accept-Encoding: gzip, deflate\r\n
+Logout.c(8):     Accept-Language: en-US\r\n
+Logout.c(8):     Accept: */*\r\n
+Logout.c(8):     Connection: Keep-Alive\r\n
+Logout.c(8):     Host: localhost:1080\r\n
+Logout.c(8):     Cookie: MTUserInfo=firstName&Ajit&username&ajit&address2&94536&hash&84&address1&4143%20Bul
+Logout.c(8):     lard%20Street&lastName&Kumar%0A\r\n
+Logout.c(8):     \r\n
+Logout.c(8): t=555251ms: 394-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=111)
+Logout.c(8):     HTTP/1.1 200 OK\r\n
+Logout.c(8):     Date: Fri, 03 Jul 2020 00:27:32 GMT\r\n
+Logout.c(8):     Server: Apache/2.2.21 (Win32)\r\n
+Logout.c(8):     Set-Cookie: MSO=SID&1593736052&MSO_JSFormSubmit1&on&MSO_ServerErrorsProb&50&MSO_ServerLoad
+Logout.c(8):     Prob&50; path=/\r\n
+Logout.c(8):     Set-Cookie: MTUserInfo=; path=/; expires=Thu, 02-Jul-2020 00:27:32 GMT\r\n
+Logout.c(8):     Keep-Alive: timeout=5, max=96\r\n
+Logout.c(8):     Connection: Keep-Alive\r\n
+Logout.c(8):     Transfer-Encoding: chunked\r\n
+Logout.c(8):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Logout.c(8):     \r\n
+Logout.c(8): t=555252ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=111)
+Logout.c(8):     2ae\r\n
+Logout.c(8): t=555252ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=111)
+Logout.c(8):     \r\n
+Logout.c(8): t=555253ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=111)
+Logout.c(8):     <!-- \n
+Logout.c(8):      A Session ID has been created and loaded into a cookie called MSO.\n
+Logout.c(8):      Also, the server options have been loaded into the cookie called\n
+Logout.c(8):      MSO as well.  The server options can be set via the Admin page.\n
+Logout.c(8):      --->\n
+Logout.c(8):     \n
+Logout.c(8):     <html>\n
+Logout.c(8):     <title>Web Tours</title>\n
+Logout.c(8):        <!-- Frame Set -->\n
+Logout.c(8):        <frameset cols="160,*" border="1" frameborder="1">\n
+Logout.c(8):           <!-- Navigation Frame -->\n
+Logout.c(8):           <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" \n
+Logout.c(8):                 noresize="noresize" scrolling="auto"/>\n
+Logout.c(8):           <!-- Home Frame -->\n
+Logout.c(8):           <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" \n
+Logout.c(8):                 noresize="noresize" scrolling="auto"/>\n
+Logout.c(8):        </frameset>\n
+Logout.c(8):     </html>\n
+Logout.c(8):     \n
+Logout.c(8):     </body>\n
+Logout.c(8):     </html>
+Logout.c(8): t=555259ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=111)
+Logout.c(8):     0\r\n
+Logout.c(8):     \r\n
+Logout.c(8): t=555260ms: Request done "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26000]
+Logout.c(8): Registered web_reg_find successful for "Text=Web Tours" (count=1)  	[MsgId: MMSG-26364]
+Logout.c(8): web_url("Logout") was successful, 686 body bytes, 394 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Logout.c(16): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0.1460 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+Logout.c(17): lr_think_time: 1.25 seconds (recorded think time was 13.00 seconds).	[MsgId: MMSG-15947]
+Ending action Logout.	[MsgId: MMSG-15918]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+t=556508ms: Closed connection [0] to localhost:1080 after completing 5 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=0, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 3 (thread 34280), ended OK."	[MsgId: MMSG-10695]

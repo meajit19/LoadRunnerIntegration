@@ -1,0 +1,11 @@
+[t25]
+FileName1=t25_rules.xml
+URL1=https://ieonline.microsoft.com/ieflipahead/ie10/rules.xml?mkt=en-US
+Total=1
+ContentType=application/xml
+SnapshotXmlFile=snapshot_25.xml
+RequestHeaderFile=t25_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t25_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
